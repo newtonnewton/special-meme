@@ -1,2 +1,4 @@
 # special-meme
-a text based console game
+Hunt the Wumpus: A text based console game, created in 1973 by Gregory Yob https://en.wikipedia.org/wiki/Hunt_the_Wumpus. The game starts with a 4x4 matrix and the player lands on the upper-left corner (1,1). Each turn the player could turn left/right, move forward or shoot the only arrow that he carreis. The goal is to explore the grid and try to pick up the gold that randomly spawned somewhere. The map is guarded by a 3 pits (you can feel the breeze when you are close to them) as well as a Wampus whose adjacent tiles are occupied by stench. Be Careful not run into a pit/Wumpus both of which would kill you. Shoot the wampus with your arrow would grant you bonus pts, but a missed shot would result in penalized points off. The wumpus and pits are guaranteed to not spawn over one another.
+
+How to run the game: run main.cpp with a C++ complier
